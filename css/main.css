@@ -474,7 +474,7 @@ textarea.form-control:focus {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, .08)
+    background-color: rgb(182 208 219);
 }
 
 .site-title-block {
