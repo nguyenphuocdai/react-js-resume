@@ -26,8 +26,8 @@ function App() {
         <div className="mask" />
       </div>
       <div className="site-title-block">
-        <h1 className="site-title">Alex Smith</h1>
-        <p className="site-description">Web Designer</p>
+        <h1 className="site-title">Nguyễn Phước Đại</h1>
+        <p className="site-description">Software Developer</p>
       </div>
       <a className="menu-toggle mobile-visible">
         <i className="fa fa-bars" />
@@ -65,7 +65,7 @@ function App() {
                 Resume
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 className="pt-trigger"
                 href="#portfolio"
@@ -74,50 +74,21 @@ function App() {
               >
                 Portfolio
               </a>
-            </li>
-            <li>
-              <a
-                className="pt-trigger"
-                href="#blog"
-                data-animation={61}
-                data-goto={4}
-              >
-                Blog
-              </a>
-            </li>
-            <li>
-              <a
-                className="pt-trigger"
-                href="#contact"
-                data-animation={58}
-                data-goto={5}
-              >
-                Contact
-              </a>
-            </li>
+            </li> */}
           </ul>
           {/* /Main menu */}
           {/* Social buttons */}
           <ul className="social-links">
             <li>
-              <a className="tip social-button" href="#" title="Twitter">
-                <i className="fa fa-twitter" />
-              </a>
-            </li>{" "}
-            {/* Full list of social icons: http://fontawesome.io/icons/#brand */}
-            <li>
-              <a className="tip social-button" href="#" title="Facebook">
+              <a className="tip social-button" href="https://www.facebook.com/npdai1995/" target="_blank" title="Facebook">
                 <i className="fa fa-facebook" />
               </a>
             </li>
             <li>
-              <a className="tip social-button" href="#" title="Google Plus">
-                <i className="fa fa-google-plus" />
+              <a className="tip social-button" href="https://www.linkedin.com/in/%C4%91%E1%BA%A1i-nguy%E1%BB%85n-6b9346266/" target="_blank" title="Linked In">
+                <i className="fa fa-linkedin" />
               </a>
             </li>
-            {/*<li><a class="tip social-button" href="#" title="Youtube"><i class="fa fa-youtube"></i></a></li>*/}
-            {/*<li><a class="tip social-button" href="#" title="last.fm"><i class="fa fa-lastfm"></i></a></li>*/}
-            {/*<li><a class="tip social-button" href="#" title="Dribbble"><i class="fa fa-dribbble"></i></a></li>*/}
           </ul>
           {/* /Social buttons */}
         </div>
@@ -129,7 +100,7 @@ function App() {
             <div className="section-title-block">
               <h2 className="section-title">About Me</h2>
               <h5 className="section-description">
-                Artist, Thinker, Creative Doer
+                Agile, Resourceful, Collaborative
               </h5>
             </div>
             <div className="row">
@@ -138,105 +109,14 @@ function App() {
                   <img src="images/photo_small.jpg" alt="image" />
                 </div>
               </div>
-              <div className="col-sm-6 col-md-6 subpage-block">
+              <div className="col-sm-12 col-md-12 subpage-block">
                 <div className="general-info">
-                  <h3>I am Web Developer/Designer @ Company.com</h3>
+                  <h3>I am Software Developer</h3>
                   <p>
-                    Proin laoreet elementum ligula, ac tincidunt lorem accumsan
-                    nec. Fusce eget urna ante. Donec massa velit, varius a
-                    accumsan ac, tempor iaculis massa. Sed placerat justo sed
-                    libero varius vulputate. Ut a mi tempus massa malesuada
-                    fermentum.
+                    I've worked as a developer for portals, gateways, and calculators. Bonuses include contracts and insurance for all sales assistance with financial matters.
                   </p>
-                  <p>
-                    Sed eleifend sed nibh nec fringilla. Donec eu cursus sem,
-                    vitae tristique ante. Cras pretium rutrum egestas. Integer
-                    ultrices libero sed justo vehicula, eget tincidunt tortor
-                    tempus. Sed tellus nibh, lobortis ut blandit sed, convallis
-                    a mauris.
-                  </p>
-                </div>
-              </div>
-              {/*<div class="col-sm-4 col-md-4 subpage-block">
-            <div class="block end">
-              <ul class="info-list">
-                <li><span class="title">Name</span><span class="value">Alex Smith</span></li>
-                <li><span class="title">Age</span><span class="value">29</span></li>
-                <li><span class="title">Address</span><span class="value">88 Street - State, Town</span></li>
-                <li><span class="title">e-mail</span><span class="value"><a href="mailto:email@addres.com">email@addres.com</a></span></li>
-                <li><span class="title">Phone</span><span class="value">+0123 123 456 789</span></li>
-                <li><span class="title">Freelance</span><span class="value available">Available</span></li>
-              </ul>
-            </div>
-          </div>*/}
-              <div className="col-sm-6 col-md-6 subpage-block">
-                <div className="block-title">
-                  <h3>Testimonials</h3>
-                </div>
-                <div className="testimonials owl-carousel">
-                  {/* Testimonial 1 */}
-                  <div className="testimonial-item">
-                    {/* Testimonial Content */}
-                    <div className="testimonial-content">
-                      <div className="testimonial-text">
-                        <p>
-                          "Proin auctor pulvinar tellus, et venenatis ligula
-                          pharetra eu. Duis dictum nisi sed pellentesque
-                          euismod."
-                        </p>
-                      </div>
-                    </div>
-                    {/* /Testimonial Content */}
-                    {/* Testimonial Author */}
-                    <div className="testimonial-credits">
-                      {/* Picture */}
-                      <div className="testimonial-picture">
-                        <img
-                          src="images/testimonials/testimonial_photo_1.png"
-                          alt=""
-                        />
-                      </div>
-                      {/* /Picture */}
-                      {/* Testimonial author information */}
-                      <div className="testimonial-author-info">
-                        <p className="testimonial-author">John Doe</p>
-                        <p className="testimonial-firm">Apple Inc.</p>
-                      </div>
-                    </div>
-                    {/* /Testimonial author information */}
-                  </div>
-                  {/* End of Testimonial 1 */}
-                  {/* Testimonial 2 */}
-                  <div className="testimonial-item">
-                    {/* Testimonial Content */}
-                    <div className="testimonial-content">
-                      <div className="testimonial-text">
-                        <p>
-                          "Vivamus porta dapibus tristique. Suspendisse et arcu
-                          eget nisi convallis eleifend nec ac lorem."
-                        </p>
-                      </div>
-                    </div>
-                    {/* /Testimonial Content */}
-                    {/* Testimonial Author */}
-                    <div className="testimonial-credits">
-                      {/* Picture */}
-                      <div className="testimonial-picture">
-                        <img
-                          src="images/testimonials/testimonila_photo_2.png"
-                          alt=""
-                        />
-                      </div>
-                      {/* /Picture */}
-                      {/* Testimonial author information */}
-                      <div className="testimonial-author-info">
-                        <p className="testimonial-author">Bryan Morris</p>
-                        <p className="testimonial-firm">Sun Foods</p>
-                      </div>
-                    </div>
-                    {/* /Testimonial author information */}
-                  </div>
-                  {/* End of Testimonial 2 */}
+                  <p>A self-motivated IT specialist with extensive corporate finance knowledge and expertise in web development (both front-end & back-end), mobile and databases, as well as strong talents and abilities in producing clean and efficient code.</p>
+                  <p>To be able to work for a supportive and stable organization that will help me learn, improve, and acquire the skills required to become the best developer I can be.</p>
                 </div>
               </div>
             </div>
@@ -252,10 +132,9 @@ function App() {
                       src="images/service/web_design.png"
                       alt="Responsive Design"
                     />
-                    <h4>Web Design</h4>
+                    <h4>Portals</h4>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor.
+                        An advanced website that offers centralized access to various resources, applications, and services, enhancing convenience and efficiency for users.
                     </p>
                   </div>
                 </div>
@@ -264,10 +143,9 @@ function App() {
                 <div className="service-block">
                   <div className="service-info">
                     <img src="images/service/copywrite.png" alt="Copywriter" />
-                    <h4>Copywriter</h4>
+                    <h4>Gateways</h4>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor.
+                    The facilitate secure communication and data exchange between systems, acting as intermediaries for seamless interoperability and integration.
                     </p>
                   </div>
                 </div>
@@ -278,8 +156,7 @@ function App() {
                     <img src="images/service/ecommerce.png" alt="E-Commerce" />
                     <h4>E-Commerce</h4>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor.
+                      The online buying and selling of goods and services, revolutionizing business transactions with global reach and convenience.
                     </p>
                   </div>
                 </div>
@@ -288,96 +165,11 @@ function App() {
                 <div className="service-block">
                   <div className="service-info">
                     <img src="images/service/management.png" alt="Management" />
-                    <h4>Management</h4>
+                    <h4>Calculate reward</h4>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor.
+                    Involves determining the value or amount earned by individuals based on specific criteria or actions, incentivizing desired behaviors and fostering customer loyalty.
                     </p>
                   </div>
-                </div>
-              </div>
-            </div>
-            {/* End of Services block */}
-            {/* Clients block */}
-            <div className="block-title">
-              <h3>Clients</h3>
-            </div>
-            <div className="row">
-              <div className="col-sm-4 col-md-2 subpage-block">
-                <div className="client_block">
-                  <a href="#" target="_blank">
-                    <img src="images/clients/client_1.png" alt="image" />
-                  </a>
-                </div>
-              </div>
-              <div className="col-sm-4 col-md-2 subpage-block">
-                <div className="client_block">
-                  <a href="#" target="_blank">
-                    <img src="images/clients/client_2.png" alt="image" />
-                  </a>
-                </div>
-              </div>
-              <div className="col-sm-4 col-md-2 subpage-block">
-                <div className="client_block">
-                  <a href="#" target="_blank">
-                    <img src="images/clients/client_3.png" alt="image" />
-                  </a>
-                </div>
-              </div>
-              <div className="col-sm-4 col-md-2 subpage-block">
-                <div className="client_block">
-                  <a href="#" target="_blank">
-                    <img src="images/clients/client_4.png" alt="image" />
-                  </a>
-                </div>
-              </div>
-              <div className="col-sm-4 col-md-2 subpage-block">
-                <div className="client_block">
-                  <a href="#" target="_blank">
-                    <img src="images/clients/client_5.png" alt="image" />
-                  </a>
-                </div>
-              </div>
-              <div className="col-sm-4 col-md-2 subpage-block">
-                <div className="client_block">
-                  <a href="#" target="_blank">
-                    <img src="images/clients/client_6.png" alt="image" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            {/* End of Clients block */}
-            {/* Fun facts block */}
-            <div className="block-title">
-              <h3>Fun Facts</h3>
-            </div>
-            <div className="row">
-              <div className="col-sm-6 col-md-3 subpage-block">
-                <div className="fun-fact-block gray-bg">
-                  <i className="pe-7s-icon pe-7s-smile" />
-                  <h4>Happy Clients</h4>
-                  <span className="fun-value">1,024</span>
-                </div>
-              </div>
-              <div className="col-sm-6 col-md-3 subpage-block">
-                <div className="fun-fact-block">
-                  <i className="pe-7s-icon pe-7s-alarm" />
-                  <h4>Working Hours</h4>
-                  <span className="fun-value">6,256</span>
-                </div>
-              </div>
-              <div className="col-sm-6 col-md-3 subpage-block">
-                <div className="fun-fact-block gray-bg">
-                  <i className="pe-7s-icon pe-7s-medal" />
-                  <h4>Awards Won</h4>
-                  <span className="fun-value">21</span>
-                </div>
-              </div>
-              <div className="col-sm-6 col-md-3 subpage-block">
-                <div className="fun-fact-block">
-                  <i className="pe-7s-icon pe-7s-coffee" />
-                  <h4>Coffee Consumed</h4>
-                  <span className="fun-value">20,000</span>
                 </div>
               </div>
             </div>
@@ -388,135 +180,329 @@ function App() {
           <section className="pt-page pt-page-2" data-id="resume">
             <div className="section-title-block">
               <h2 className="section-title">Resume</h2>
-              <h5 className="section-description">6 Years of Experience</h5>
+              <h5 className="section-description">5 Years of Experience</h5>
             </div>
             <div className="row">
-              <div className="col-sm-6 col-md-4 subpage-block">
-                <div className="block-title">
-                  <h3>Education</h3>
-                </div>
-                <div className="timeline">
-                  {/* Single event */}
-                  <div className="timeline-event te-primary">
-                    <h5 className="event-date">2010</h5>
-                    <h4 className="event-name">Specialization Course</h4>
-                    <span className="event-description">
-                      University of Studies
-                    </span>
-                    <p>
-                      Mauris magna sapien, pharetra consectetur fringilla vitae,
-                      interdum sed tortor.
-                    </p>
-                  </div>
-                  {/* Single event */}
-                  <div className="timeline-event te-primary">
-                    <h5 className="event-date">2009</h5>
-                    <h4 className="event-name">Specialization Course</h4>
-                    <span className="event-description">
-                      University of Studies
-                    </span>
-                    <p>
-                      Mauris magna sapien, pharetra consectetur fringilla vitae,
-                      interdum sed tortor.
-                    </p>
-                  </div>
-                  {/* Single event */}
-                  <div className="timeline-event te-primary">
-                    <h5 className="event-date">2008</h5>
-                    <h4 className="event-name">Specialization Course</h4>
-                    <span className="event-description">
-                      University of Studies
-                    </span>
-                    <p>
-                      Mauris magna sapien, pharetra consectetur fringilla vitae,
-                      interdum sed tortor.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-6 col-md-4 subpage-block">
+              <div className="col-sm-12 col-md-12 subpage-block">
                 <div className="block-title">
                   <h3>Experience</h3>
                 </div>
                 <div className="timeline">
                   {/* Single event */}
                   <div className="timeline-event te-primary">
-                    <h5 className="event-date">Dec 2012 - Current</h5>
-                    <h4 className="event-name">Frontend-developer</h4>
-                    <span className="event-description">Web Agency</span>
+                    <h5 className="event-date">02/2021 - Current</h5>
+                    <h4 className="event-name">Home Credit VietNam</h4>
+                    <span className="event-description">Software Developer</span>
+                    <ul className='ul-resume'>
+                      <li className='li-project'>Primary responsibilities: Monthly bonus calculations for Sales.</li>
+                      <li>- Role: Software Developer</li>
+                      <li>- Features: Sales incentives based on KPIs, sales assistance-All sales kpi should be checked by the admin.</li>
+                      <li className='li-end'>- Skills: MSSQL, Oracle, and Excel soft skills.</li>
+
+                      <li className='li-project'>Research & Buiding Framework</li>
+                      <li>- Role: Fullstack Developer.</li>
+                      <li>- Features: Building framework which has the corresponding functions portal.</li>
+                      <li>- Skills: </li>
+                      <li>+ Back-end: .NET Core, MSSQL.</li>
+                      <li className='li-end'>+ Front-end: ASP.NET Razor (MVC).</li>
+
+                      <li className='li-project'>Message Mail</li>
+                      <li>- Role: Developer</li>
+                      <li>- Features: OTP & Mail for sales.</li>
+                      <li className='li-end'>- Skills: + Back-end: .NET Core, MSSQL.</li>
+
+                      <li className='li-project'>Schedule System</li>
+                      <li>- Role: Fullstack Developer</li>
+                      <li>- Features: set up a task for each day and hour obtain data by flow: obtain data from the datawarehouse and provide it to the owner scheme. Then get from the owner scheme to the database calculator.</li>
+                      <li className='li-end'>- Skills: C# MVC, .NET Core, MSSQL, Oracle.</li>
+                      
+                    </ul>
+                  </div>
+
+                  <div className="timeline-event te-primary">
+                    <h5 className="event-date">01/2020 - 02/2021</h5>
+                    <h4 className="event-name">VietCredit Finance Company</h4>
+                    <span className="event-description">Full Stack Developer</span>
+                    <ul className='ul-resume'>
+                      <li className='li-project'>VietCredit Customer Mobile App</li>
+                      <li>- Role: Back-end Developer.</li>
+                      <li>- Timeline: 05/2020 - 06/2020</li>
+                      <li>- Features: The application allows customers to access to view transaction details, statements, credit limits, customer information, activate cards, lock card emergencies.</li>
+                      <li className='li-end'>- Skills: C#, ServiceStack, MSSQL, Web Services.</li>
+
+                      <li className='li-project'>VietCredit Portal</li>
+                      <li>- Role: Fullstack Developer.</li>
+                      <li>- Timeline: 01/2020 - 12/2020</li>
+                      <li>- Features: Professional management of all departments.</li>
+                      <li className='li-end'>- Skills: C# (DotNetNuke), MSSQL, Oracle, ServiceStack.</li>
+
+                      <li className='li-project'>Support Covid Customer</li>
+                      <li>- Role: Fullstack Developer.</li>
+                      <li>- Timeline: 03/2020 - 12/2020</li>
+                      <li>- Features: Allows customers with outstanding loans to register for debt repayment in the form of debt rescheduling</li>
+                      <li>- Skills:</li>
+                      <li>+ Front-end: C# MVC.</li>
+                      <li className='li-end'>+ Back-end: C# (DotNetNuke), MSSQL, Oracle, ServiceStack.</li>
+
+                      <li className='li-project'>Digital Onboarding Platform</li>
+                      <li>- Role: Fullstack Developer.</li>
+                      <li>- Timeline: 10/2020 - 01/2021</li>
+                      <li>- Features: The Digital Onboarding Platform (hereinafter referred to as DOP) is VietCredit's comprehensive solution to receive and process records of Clients from various sources. You can quickly and easily apply for a VietCredit loan card.</li>
+                      <li className='li-end'>- Skills: C# (DotNetNuke), MSSQL, Oracle, ServiceStack.</li>
+
+                      <li className='li-project'>Research & Buiding Framework</li>
+                      <li>- Role: Fullstack Developer.</li>
+                      <li>- Timeline: 01/2020 - 04/2020</li>
+                      <li>- Features: Building Framework Services base on ServiceStack, Customize Portal, Build Framework Mobile Flutter with Redux.</li>
+                      <li>- Skills:</li>
+                      <li>+ Back-end: C#(DotNetNuke), MSSQL, ServiceStack.</li>
+                      <li>+ Front-end: ASP.NET MVC.</li>
+                      <li className='li-end'>+ Mobile: Flutter.</li>
+
+                      <li className='li-project'>SAM(Sale Activity Management)</li>
+                      <li>- Role: Back-end Developer</li>
+                      <li>- Timeline: 02/2020 - 05/2020</li>
+                      <li>- Features:  Manage sale activities when meeting customers.</li>
+                      <li className='li-end'>- Skills: C#(DotNetNuke), MSSQL, ServiceStack.</li>
+
+                      <li className='li-project'>Payment Gateway</li>
+                      <li>- Role: Back-end Developer</li>
+                      <li>- Timeline: 02/2020 - 05/2020</li>
+                      <li>- Features: The gateway to receive all transaction queries, payment transactions, and cancel transactions of partners.</li>
+                      <li className='li-end'>- Skills: MSSQL, C# Web Service.</li>
+
+                      <li className='li-project'>ESB (Enterprise Service Bus)</li>
+                      <li>- Role: Back-end Developer</li>
+                      <li>- Timeline: 04/2020 - 06/2020</li>
+                      <li>- Features: Transaction Navigator, Message Delivery Manager, Receiving Processing Unit convert transactions into CMS.</li>
+                      <li className='li-end'>- Skills: MSSQL, C# Web Service.</li>
+
+                      <li className='li-project'>Data Posting Tool</li>
+                      <li>- Role: Back-end Developer</li>
+                      <li>- Timeline: 05/2020 - 06/2020</li>
+                      <li>- Features: Transfer transactions into the CMS system.</li>
+                      <li className='li-end'>- Skills: MSSQL, C# Web Service.</li>
+
+                      <li className='li-project'>GRAB, KBANK</li>
+                      <li>- Role: Back-end Developer</li>
+                      <li>- Timeline: 05/2020 - 06/2020</li>
+                      <li>- Features:  To make a bulk loan card according to the merchant's list.</li>
+                      <li>+ Convert file information of customers who need to open VietCredit card into the temporary system.</li>
+                      <li>+ After a period of time, the schedule task runs to transfer the information previously imported by customers into the CAS profiling system and calculate Scoring and lookup PCBs. If data meet the requirements, It will create a card on CMS.</li>
+                      <li className='li-end'>- Skills: MSSQL, C# Web Service.</li>
+
+                      <li className='li-project'>Payment By VNPAY</li>
+                      <li>- Role: Fullstack Developer.</li>
+                      <li>- Timeline: 10/2020 - 12/2020</li>
+                      <li>- Features: Allows customers to pay their outstanding loans through VNPAY.</li>
+                      <li className='li-end'>Skills: Angular, C# MVC, MSSQL, ServiceStack, System integration with VNPAY.</li>
+                    </ul>
+                  </div>
+                  <div className="timeline-event te-primary">
+                    <h5 className="event-date">11/2019 - 12/2019</h5>
+                    <h4 className="event-name">TTC Land Corp</h4>
+                    <span className="event-description">Web Application Developer</span>
+                    <ul className='ul-resume'>
+                      <li>- I have knowledge about CRM and ERP applications.</li>
+                      <li>- Knowledge management model of a real estate company</li>
+                      <li>- Building Portal of business Real Estate.</li>
+                      <li>- System integration with FPT Soft.</li>
+                      <li className='li-project'>Skills: ERP Software · Customer Relationship Management (CRM)</li>
+                    </ul>
+                  </div>
+                  <div className="timeline-event te-primary">
+                    <h5 className="event-date">10/2018 - 10/2019</h5>
+                    <h4 className="event-name">ATG - ALTTEK GLOBAL</h4>
+                    <span className="event-description">Full Stack Developer</span>
+                    <ul className='ul-resume'>
+                      <li className='li-project'>Giftalk VST(Card Prepaid).</li>
+                      <li>- Timeline: 01/2018 - 05/2018</li>
+                      <li>- Features: Customers who buy prepaid cards can transact at all merchants affiliated with VST.</li>
+                      <li>- Skills:</li>
+                      <li>+ Portal: C# (DotNetNuke), MSSQL.</li>
+                      <li className='li-end'>+ Services: Implement services API from ServiceStack.</li>
+
+
+                      <li className='li-project'>IFind(Promotions, Attractive Offers)</li>
+                      <li>- Timeline: 01/2018 - 05/2018</li>
+                      <li>- Features: Allows customers to hunt for all IFind's partner's deals.</li>
+                      <li className='li-end'>- Skills: C# (DotNetNuke), MSSQL.</li>
+
+                      <li className='li-project'>DAMH(Digital Asset Management Holding)</li>
+                      <li>- Timeline: 09/2018 - 12/2018</li>
+                      <li>- Features: Allows customers to transact online, watch the exchange rate assets rise and fall.</li>
+                      <li>- Skills:</li>
+                      <li>+ Back-end: C# , MSSQL, Rabbit MQ, Redis.</li>
+                      <li>+ Portal: C# (DotNetNuke) Configuration assets, fee transaction, limit transaction, settings for front-end, back-end ...v.v . Inquiries catalog of databases.</li>
+                      <li>+ Stellar explorer: Construct and deploy an explorer based on an open source project.</li>
+                      <li>+ Core blockchain: Build services based on SDKs of Stellar includes transaction, account, assets, customer. Docker is used to deploy to UAT and staging.</li>
+                      <li className='li-end'>+ Front-end: Stellar-Term (Stellar Trading Client) build & customization assets management, authorize customer, exchange rate assets from opensource project (React js). Release & set up connect to services</li>
+
+                      <li className='li-project'>Sacombank (Lottery Number)</li>
+                      <li>- Timeline: 11/2018 - 12/2018</li>
+                      <li>- Features: Promotion for customers using credit cards, each spending 1 million will get 1 spin.</li>
+                      <li>- Skills: </li>
+                      <li>+ Back-end: C# (DotNetNuke), MSSQL, System integration with Sacombank.</li>
+                      <li>+ Front-end: HTML5, CSS, Javascript.</li>
+                      <li>+ Deploy to Production.</li>
+
+                      <li className='li-project'>VNPAY(POS)</li>
+                      <li>- Timeline: 03/2019 - 09/2019</li>
+                      <li>- Features: Build a service gateway's receive transactions from the POS machine, convert the transaction to ISO-8583 to send the endpoint of the bank. Then, receive information from the bank & respond to the client.</li>
+                      <li>- Skills: </li>
+                      <li>+ C#(DotNetNuke), MSSQL, ServiceStack, Message ISO-8583, Research & apply technology about HSM-Thales.</li>
+                      <li>+ Deploy to UAT & Staging.</li>
+
+                      <li className='li-project'>Various other outsourced tasks</li>
+                      <li className='li-project'>Skills: C#, ServiceStack, Integration, Redis, RabbitMQ, Blockchain, jQuery, React.js, HTML, Cascading Style Sheets (CSS), JavaScript, DotNetNuke (DNN), Microsoft SQL Server</li>
+                    </ul>
+                  </div>
+                  {/* Single event */}
+                  <div className="timeline-event te-primary">
+                    <h5 className="event-date">10/2018 - 05/2019</h5>
+                    <h4 className="event-name">Mentor</h4>
+                    <span className="event-description">CyberSoft Academy</span>
+                    <ul className='ul-resume'>
+                      <li>- To guide the participants to understand the Front-end technologies.</li>
+                      <li>- Grading and commenting on students' homework through error checking of homework.</li>
+                      <li>- Support for activities of the center.</li>
+                      <li>- In short, here I know how to impart knowledge and tutorials for Frontend developer beginners. In particular, I have an understanding of LMS (LEARNING MANAGEMENT SYSTEM)</li>
+                      <li className='li-project'>Skills: Front-End Development</li>
+                    </ul>
+                  </div>
+                  {/* Single event */}
+                  <div className="timeline-event te-primary">
+                    <h5 className="event-date">01/2017 - 01/2018</h5>
+                    <h4 className="event-name">Sacombank</h4>
+                    <span className="event-description">Collaborator - Internship</span>
+                    <ul className='ul-resume'>
+                      <li className='li-project'>Checkout Gateway</li>
+                      <li>- Features: Checkout Gateway that enables cardholders to process payments on merchant websites using their Visa, Master, JCB, or NAPAS cards issued by Sacombank or other banks.</li>
+                      <li className='li-project'>Portal (branch Sacombank-Cambodia)</li>
+                      <li>- Features: perform database searches and produce reports.</li>
+                      <li className='li-project'>Checkout Gateway</li>
+                      <li>- Features: Checkout Gateway that enables cardholders to process payments on merchant websites using their Visa, Master, JCB, or NAPAS cards issued by Sacombank or other banks. </li>
+                      <li className='li-project'>Portal (branch Sacombank-Cambodia)</li>
+                      <li>- Features: perform database searches and produce reports.</li>
+                      <li className='li-project'>Skills: HTML · Cascading Style Sheets (CSS) · JavaScript · Angular · DotNetNuke (DNN) · Microsoft SQL Server </li>
+                    </ul>
+                  </div>
+
+                  <div className="timeline-event te-primary">
+                    <h5 className="event-date">08-2018 - Current</h5>
+                    <h4 className="event-name">Freelancer</h4>
+                    <ul className='ul-resume'>
+                      <li className='li-project'>Google Custom Search API</li>
+                      <li>- Role: Fullstack Developer.</li>
+                      <li>- Timeline: 08/2019 - 09/2019</li>
+                      <li>- Features: Apply API of google search custom to project, it's show result from google-API & shows ads of google, research Elastic Search Engine (Logstash, Elastic, Kibana, Filebeat) and apply it to project search.</li>
+                      <li className='li-end'>- Skills: Logstash, Elastic, Kibana, Filebeat, Angular 2, Ads Google from Third Party.</li>
+
+                      <li className='li-project'>Dynamic Module</li>
+                      <li>- Role: Fullstack Developer.</li>
+                      <li>- Timeline: 01/2019 - 06/2019</li>
+                      <li>- Features: Participate in project development to create modules automatically product management, business management, warehouse management.</li>
+                      <li className='li-end'>- Skills: C#, MSSQL, ServiceStack, Angular 2(Metronic Theme).</li>
+
+                      <li className='li-project'>Checkout Payment</li>
+                      <li>- Role: Front End Developer.</li>
+                      <li>- Timeline: 03/2019 - 06/2019</li>
+                      <li>- Features: Join payment integration, develop a shopping cart module</li>
+                      <li className='li-end'>- Skills: Angular 2, Node js, MongoDB.</li>
+
+                      <li className='li-project'>Ebook Reader</li>
+                      <li>- Role: Mobile Developer.</li>
+                      <li>- Timeline: 01/2019 - 04/2019</li>
+                      <li>- Features: Develop application could management user role and read, edit file pdf from URL, file, file local. </li>
+                      <li className='li-end'>- Skills:  Flutter, SQLite</li>
+
+                      <li className='li-project'>Tap Hoa 4.0</li>
+                      <li>- Role: Fullstack Developer.</li>
+                      <li>- Timeline: 01/2019 - 06/2019</li>
+                      <li>- Features: Allows customers to order on the app and delivery groceries nearby</li>
+                      <li>- Skills: </li>
+                      <li>+ Back-end: C#(DotNetNuke), MSSQL, ServiceStack.</li>
+                      <li>+ Front-end: React js.</li>
+                      <li className='li-end'>+ Mobile: Flutter.</li>
+
+                      <li className='li-project'>Real Estate</li>
+                      <li>- Role: Fullstack Developer.</li>
+                      <li>- Timeline: 09/2019 - 10/2019</li>
+                      <li>- Features:Allows posting of real estate rental.</li>
+                      <li>- Skills: </li>
+                      <li>+ Back-end: C#(DotNetNuke), MSSQL, ServiceStack.</li>
+                      <li>+ Front-end: ASP.NET MVC.</li>
+                      <li className='li-end'>+ Mobile: Flutter.</li>
+
+                      <li className='li-project'>Auto Bot Game & Dashboard Management</li>
+                      <li>- Role: Fullstack Developer.</li>
+                      <li>- Timeline: 07/2021- 09/2021</li>
+                      <li>- Features: Allows set up & autoplay game, play to earn token on the blockchain. Connect to marketplace Hive-Engine.</li>
+                      <li>- Skills: </li>
+                      <li>+ Back-end: Node js (Puppeteer Node library)</li>
+                      <li className='li-end'>+ Front-end: React js.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="col-sm-6 col-md-6 subpage-block">
+                <div className="block-title">
+                  <h3>Education</h3>
+                </div>
+                <div className="timeline">
+                  {/* Single event */}
+                  <div className="timeline-event te-primary">
+                    <h5 className="event-date">05/2018 - 10/2018</h5>
+                    <h4 className="event-name">Cybersoft Academy</h4>
+                    <span className="event-description">
+                      Student
+                    </span>
                     <p>
-                      Mauris magna sapien, pharetra consectetur fringilla vitae,
-                      interdum sed tortor.
+                    Learning more about web application technologies and earning an honors degree A few examples of simple to complex technology include HTML, CSS, Javascript/jQuery, Webpack, TypeScript, Angular 2, and Reactjs.
                     </p>
                   </div>
                   {/* Single event */}
                   <div className="timeline-event te-primary">
-                    <h5 className="event-date">Dec 2011 - Nov 2012</h5>
-                    <h4 className="event-name">Web Designer</h4>
-                    <span className="event-description">Apple Inc.</span>
+                    <h5 className="event-date">2013-2018</h5>
+                    <h4 className="event-name">Can Tho University</h4>
+                    <span className="event-description">
+                      Student
+                    </span>
                     <p>
-                      Mauris magna sapien, pharetra consectetur fringilla vitae,
-                      interdum sed tortor.
-                    </p>
-                  </div>
-                  {/* Single event */}
-                  <div className="timeline-event te-primary">
-                    <h5 className="event-date">Jan 2010 - Dec 2011</h5>
-                    <h4 className="event-name">Graphic Designer</h4>
-                    <span className="event-description">Web Agency</span>
-                    <p>
-                      Mauris magna sapien, pharetra consectetur fringilla vitae,
-                      interdum sed tortor.
+                    General studies for developers include computer science, software engineering, web development, database management, programming, data science.
                     </p>
                   </div>
                 </div>
               </div>
-              <div className="col-sm-6 col-md-4 subpage-block">
-                <div className="block-title">
-                  <h3>Design Skills</h3>
-                </div>
-                <div className="skills-info">
-                  <h4>Web Design</h4>
-                  <div className="skill-container">
-                    <div className="skill-percentage skill-1" />
-                  </div>
-                  <h4>Graphic Design</h4>
-                  <div className="skill-container">
-                    <div className="skill-percentage skill-2" />
-                  </div>
-                  <h4>Print Design</h4>
-                  <div className="skill-container">
-                    <div className="skill-percentage skill-3" />
-                  </div>
-                </div>
+              <div className="col-sm-6 col-md-6 subpage-block">
                 <div className="block-title">
                   <h3>Coding Skills</h3>
                 </div>
                 <div className="skills-info">
-                  <h4>HML5</h4>
-                  <div className="skill-container">
-                    <div className="skill-percentage skill-4" />
-                  </div>
-                  <h4>CSS3</h4>
+                  <h4>Back-end (C#, Node js, Web Services, Gateway)</h4>
                   <div className="skill-container">
                     <div className="skill-percentage skill-5" />
                   </div>
-                  <h4>jQuery</h4>
+                  <h4>Front-end (React js, Angular)</h4>
                   <div className="skill-container">
                     <div className="skill-percentage skill-6" />
                   </div>
-                  <h4>Wordpress</h4>
+                  <h4>Databases (MSSQL, MySQL, Oracle, MongoDB)</h4>
+                  <div className="skill-container">
+                    <div className="skill-percentage skill-6" />
+                  </div>
+                  <h4>Mobile (Flutter, React Native)</h4>
                   <div className="skill-container">
                     <div className="skill-percentage skill-7" />
                   </div>
-                  <h4>PHP</h4>
+                  <h4>Others (Redis, RabbitMQ, Git, Soft skills excel, ...)</h4>
                   <div className="skill-container">
                     <div className="skill-percentage skill-8" />
                   </div>
                 </div>
               </div>
             </div>
-            <div className="row">
+            {/* <div className="row">
               <div className="col-sm-12 col-md-12">
                 <div className="download-cv-block">
                   <a className="button" target="_blank" href="#">
@@ -524,7 +510,7 @@ function App() {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
           </section>
           {/* End Resume Subpage */}
           {/* Portfolio Subpage */}
@@ -747,409 +733,6 @@ function App() {
             </div>
             {/* /Portfolio Content */}
           </section>
-          {/* /Portfolio Subpage */}
-          {/* Blog Subpage */}
-          <section className="pt-page pt-page-4" data-id="blog">
-            <div className="section-title-block">
-              <h2 className="section-title">Blog</h2>
-              <h5 className="section-description">My Diary</h5>
-            </div>
-            <div className="blog-masonry">
-              {/* Blog Post 1 */}
-              <div className="item">
-                <div className="blog-card">
-                  <div className="media-block">
-                    <a href="blog-post-1.html">
-                      <img
-                        className="post-image img-responsive"
-                        src="images/blog/blog_post_1.jpg"
-                        alt="blog-post-1"
-                      />
-                      <div className="mask" />
-                      <div className="post-date">
-                        <span className="day">6</span>
-                        <span className="month">Dec</span>
-                        {/*<span class="year">2016</span>*/}
-                      </div>
-                    </a>
-                  </div>
-                  <div className="post-info">
-                    <ul className="category">
-                      <li>
-                        <a href="#">Travel</a>
-                      </li>
-                    </ul>
-                    <a href="blog-post-1.html">
-                      <h4 className="blog-item-title">
-                        Bootstrap is the Most Popular Framework
-                      </h4>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              {/* End of Blog Post 1 */}
-              {/* Blog Post 2 */}
-              <div className="item">
-                <div className="blog-card">
-                  <div className="media-block">
-                    <a href="blog-post-1.html">
-                      <img
-                        className="post-image img-responsive"
-                        src="images/blog/blog_post_2.jpg"
-                        alt="blog-post-2"
-                      />
-                      <div className="mask" />
-                      <div className="post-date">
-                        <span className="day">3</span>
-                        <span className="month">Nov</span>
-                        {/*<span class="year">2016</span>*/}
-                      </div>
-                    </a>
-                  </div>
-                  <div className="post-info">
-                    <ul className="category">
-                      <li>
-                        <a href="#">jQuery</a>
-                      </li>
-                    </ul>
-                    <a href="blog-post-1.html">
-                      <h4 className="blog-item-title">
-                        One Framework, Every Device
-                      </h4>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              {/* End of Blog Post 2 */}
-              {/* Blog Post 3 */}
-              <div className="item">
-                <div className="blog-card">
-                  <div className="media-block">
-                    <a href="blog-post-1.html">
-                      <img
-                        className="post-image img-responsive"
-                        src="images/blog/blog_post_3.jpg"
-                        alt="blog-post-3"
-                      />
-                      <div className="mask" />
-                      <div className="post-date">
-                        <span className="day">12</span>
-                        <span className="month">Oct</span>
-                        {/*<span class="year">2016</span>*/}
-                      </div>
-                    </a>
-                  </div>
-                  <div className="post-info">
-                    <ul className="category">
-                      <li>
-                        <a href="#">Sport</a>
-                      </li>
-                    </ul>
-                    <a href="blog-post-1.html">
-                      <h4 className="blog-item-title">
-                        Designed for Everyone, Everywhere
-                      </h4>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              {/* End of Blog Post 3 */}
-              {/* Blog Post 4 */}
-              <div className="item">
-                <div className="blog-card">
-                  <div className="media-block">
-                    <a href="blog-post-1.html">
-                      <img
-                        className="post-image img-responsive"
-                        src="images/blog/blog_post_4.jpg"
-                        alt="blog-post-4"
-                      />
-                      <div className="mask" />
-                      <div className="post-date">
-                        <span className="day">18</span>
-                        <span className="month">Aug</span>
-                        {/*<span class="year">2016</span>*/}
-                      </div>
-                    </a>
-                  </div>
-                  <div className="post-info">
-                    <ul className="category">
-                      <li>
-                        <a href="#">CSS</a>
-                      </li>
-                    </ul>
-                    <a href="blog-post-1.html">
-                      <h4 className="blog-item-title">
-                        An Introduction To PostCSS
-                      </h4>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              {/* End of Blog Post 4 */}
-              {/* Blog Post 5 */}
-              <div className="item">
-                <div className="blog-card">
-                  <div className="media-block">
-                    <a href="blog-post-1.html">
-                      <img
-                        className="post-image img-responsive"
-                        src="images/blog/blog_post_5.jpg"
-                        alt="blog-post-5"
-                      />
-                      <div className="mask" />
-                      <div className="post-date">
-                        <span className="day">2</span>
-                        <span className="month">Jul</span>
-                        {/*<span class="year">2016</span>*/}
-                      </div>
-                    </a>
-                  </div>
-                  <div className="post-info">
-                    <ul className="category">
-                      <li>
-                        <a href="#">CSS3</a>
-                      </li>
-                    </ul>
-                    <a href="blog-post-1.html">
-                      <h4 className="blog-item-title">
-                        Original and Innovative Web Layouts
-                      </h4>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              {/* End of Blog Post 5 */}
-              {/* Blog Post 6 */}
-              <div className="item">
-                <div className="blog-card">
-                  <div className="media-block">
-                    <a href="blog-post-1.html">
-                      <img
-                        className="post-image img-responsive"
-                        src="images/blog/blog_post_6.jpg"
-                        alt="blog-post-6"
-                      />
-                      <div className="mask" />
-                      <div className="post-date">
-                        <span className="day">8</span>
-                        <span className="month">May</span>
-                        {/*<span class="year">2016</span>*/}
-                      </div>
-                    </a>
-                  </div>
-                  <div className="post-info">
-                    <ul className="category">
-                      <li>
-                        <a href="#">HTML5</a>
-                      </li>
-                    </ul>
-                    <a href="blog-post-1.html">
-                      <h4 className="blog-item-title">
-                        Creative and Innovative Navigation Designs
-                      </h4>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              {/* End of Blog Post 6 */}
-              {/* Blog Post 7 */}
-              <div className="item">
-                <div className="blog-card">
-                  <div className="media-block">
-                    <a href="blog-post-1.html">
-                      <img
-                        className="post-image img-responsive"
-                        src="images/blog/blog_post_7.jpg"
-                        alt="blog-post-7"
-                      />
-                      <div className="mask" />
-                      <div className="post-date">
-                        <span className="day">7</span>
-                        <span className="month">Apr</span>
-                        {/*<span class="year">2016</span>*/}
-                      </div>
-                    </a>
-                  </div>
-                  <div className="post-info">
-                    <ul className="category">
-                      <li>
-                        <a href="#">Design</a>
-                      </li>
-                    </ul>
-                    <a href="blog-post-1.html">
-                      <h4 className="blog-item-title">
-                        Navigation for Mega-Sites
-                      </h4>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              {/* End of Blog Post 7 */}
-              {/* Blog Post 8 */}
-              <div className="item">
-                <div className="blog-card">
-                  <div className="media-block">
-                    <a href="blog-post-1.html">
-                      <img
-                        className="post-image img-responsive"
-                        src="images/blog/blog_post_8.jpg"
-                        alt="blog-post-8"
-                      />
-                      <div className="mask" />
-                      <div className="post-date">
-                        <span className="day">21</span>
-                        <span className="month">Mar</span>
-                        {/*<span class="year">2016</span>*/}
-                      </div>
-                    </a>
-                  </div>
-                  <div className="post-info">
-                    <ul className="category">
-                      <li>
-                        <a href="#">CSS3</a>
-                      </li>
-                    </ul>
-                    <a href="blog-post-1.html">
-                      <h4 className="blog-item-title">
-                        Front-End Challenge Accepted: CSS 3D Cube
-                      </h4>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              {/* End of Blog Post 8 */}
-            </div>
-          </section>
-          {/* End Blog Subpage */}
-          {/* Contact Subpage */}
-          <section className="pt-page pt-page-5" data-id="contact">
-            <div className="section-title-block">
-              <h2 className="section-title">Contact</h2>
-              <h5 className="section-description">Get in Touch</h5>
-            </div>
-            <div className="row">
-              <div className="col-sm-6 col-md-6 subpage-block">
-                <div className="block-title">
-                  <h3>Get in Touch</h3>
-                </div>
-                <p>
-                  Sed eleifend sed nibh nec fringilla. Donec eu cursus sem,
-                  vitae tristique ante. Cras pretium rutrum egestas. Integer
-                  ultrices libero sed justo vehicula, eget tincidunt tortor
-                  tempus.
-                </p>
-                <div className="contact-info-block">
-                  <div className="ci-icon">
-                    <i className="pe-7s-icon pe-7s-map-marker" />
-                  </div>
-                  <div className="ci-text">
-                    <h5>Los Angeles, USA</h5>
-                  </div>
-                </div>
-                <div className="contact-info-block">
-                  <div className="ci-icon">
-                    <i className="pe-7s-icon pe-7s-mail" />
-                  </div>
-                  <div className="ci-text">
-                    <h5>
-                      <a
-                        href="/cdn-cgi/l/email-protection"
-                        className="__cf_email__"
-                        data-cfemail="4928252c313a24203d21092c31282439252c672a2624"
-                      >
-                        [email&nbsp;protected]
-                      </a>
-                    </h5>
-                  </div>
-                </div>
-                <div className="contact-info-block">
-                  <div className="ci-icon">
-                    <i className="pe-7s-icon pe-7s-call" />
-                  </div>
-                  <div className="ci-text">
-                    <h5>+123 654 78900</h5>
-                  </div>
-                </div>
-                <div className="contact-info-block">
-                  <div className="ci-icon">
-                    <i className="pe-7s-icon pe-7s-check" />
-                  </div>
-                  <div className="ci-text">
-                    <h5>Freelance Available</h5>
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-6 col-md-6 subpage-block">
-                <div className="block-title">
-                  <h3>Contact Form</h3>
-                </div>
-                <form
-                  id="contact-form"
-                  method="post"
-                  action="contact_form/contact_form.php"
-                >
-                  <div className="messages" />
-                  <div className="controls">
-                    <div className="form-group">
-                      <input
-                        id="form_name"
-                        type="text"
-                        name="name"
-                        className="form-control"
-                        placeholder="Full Name"
-                        required="required"
-                        data-error="Name is required."
-                      />
-                      <div className="form-control-border" />
-                      <i className="form-control-icon fa fa-user" />
-                      <div className="help-block with-errors" />
-                    </div>
-                    <div className="form-group">
-                      <input
-                        id="form_email"
-                        type="email"
-                        name="email"
-                        className="form-control"
-                        placeholder="Email Address"
-                        required="required"
-                        data-error="Valid email is required."
-                      />
-                      <div className="form-control-border" />
-                      <i className="form-control-icon fa fa-envelope" />
-                      <div className="help-block with-errors" />
-                    </div>
-                    <div className="form-group">
-                      <textarea
-                        id="form_message"
-                        name="message"
-                        className="form-control"
-                        placeholder="Message for me"
-                        rows={4}
-                        required="required"
-                        data-error="Please, leave me a message."
-                        defaultValue={""}
-                      />
-                      <div className="form-control-border" />
-                      <i className="form-control-icon fa fa-comment" />
-                      <div className="help-block with-errors" />
-                    </div>
-                    <div
-                      className="g-recaptcha"
-                      data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI"
-                      data-callback="correctCaptcha"
-                    />
-                    <input
-                      type="submit"
-                      className="button btn-send"
-                      defaultValue="Send message"
-                    />
-                  </div>
-                </form>
-              </div>
-            </div>
-          </section>
-          {/* End Contact Subpage */}
         </div>
       </div>
       {/* /Page changer wrapper */}
