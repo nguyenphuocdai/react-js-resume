@@ -22,7 +22,7 @@ function App() {
     {/* Header */}
     <header id="site_header" className="header">
       <div className="my-photo">
-        <img src="images/my_photo.jpg" alt="image" />
+        <img src="images/avatar.jpg" />
         <div className="mask" />
       </div>
       <div className="site-title-block">
@@ -106,7 +106,7 @@ function App() {
             <div className="row">
               <div className="col-sm-12 col-md-12 mobile-visible subpage-block">
                 <div className="my-photo-small">
-                  <img src="images/photo_small.jpg" alt="image" />
+                  <img src="images/avatar.jpg" alt="image" />
                 </div>
               </div>
               <div className="col-sm-12 col-md-12 subpage-block">
